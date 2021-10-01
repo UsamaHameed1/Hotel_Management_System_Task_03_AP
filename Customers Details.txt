@@ -1,0 +1,5 @@
+Customer{custoemrID=1, Name='Rizwan Khan', CNIC='374059874563', phoneNo='+92154785236', roomOccupiedByCustomer=Room{roomNumber=1, keyNumber=1, occupiedStatus=true, reservationStatus=false, reservationDate='-'}, checkInDate='12-10-2021', checkOutDate='15-10-2021', servicesUsed=[], customerTotalBill=0}
+Customer{custoemrID=2, Name='Anwar Ahmed', CNIC='7412589631459', phoneNo='+9274895136', roomOccupiedByCustomer=Room{roomNumber=2, keyNumber=2, occupiedStatus=false, reservationStatus=false, reservationDate='-'}, checkInDate='11-10-2021', checkOutDate='12-10-2021', servicesUsed=[Food		Food Services			1500
+, Room Cleaning		Other Services			2000
+, Room Charges		Room Rent			2000
+], customerTotalBill=4300}
