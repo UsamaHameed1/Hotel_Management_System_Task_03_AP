@@ -265,10 +265,41 @@ public class Hotel {
                             }
                             System.out.println("Total Bill : "+(foodPrice+roomPrice+otherPrice));
 
+
+                            //********************** Customer Bill *****************************************************
+                            // Writing For the Customers
+                            try
+                            {
+                                File CustomerList_File=new File("Customers Bill.txt");
+                                if (CustomerList_File.createNewFile()) {
+                                    System.out.println("File created: " + CustomerList_File.getName());
+                                } else {
+                                    System.out.println("File already exists.");
+                                }
+                            }
+                            catch(IOException e)
+                            {
+                                System.out.println(e);
+                            }
+
+                            //*********************** Write the File ******************************************************************************
+                            try {
+                                FileWriter CustomerList_File = new FileWriter("Customers Bill.txt");
+                                String line=Customers_List.toString()+"\n";
+                                CustomerList_File.write(line);
+                                CustomerList_File.close();
+                                System.out.println("Successfully wrote to the file.");
+                            } catch (IOException e) {
+                                System.out.println("An error occurred.");
+                                e.printStackTrace();
+                            }
+
+
                             break;
                         }
                         case 7:
                         {
+                            // Writing For the Rooms
                             //****************************** Creating the file ******************************************************************
                             try
                             {
@@ -292,6 +323,35 @@ public class Hotel {
                                     Room_List_File.write(line);
                                 }
                                 Room_List_File.close();
+                                System.out.println("Successfully wrote to the file.");
+                            } catch (IOException e) {
+                                System.out.println("An error occurred.");
+                                e.printStackTrace();
+                            }
+
+                            // Writing For the Customers
+                            try
+                            {
+                                File CustomerList_File=new File("Customers Details.txt");
+                                if (CustomerList_File.createNewFile()) {
+                                    System.out.println("File created: " + CustomerList_File.getName());
+                                } else {
+                                    System.out.println("File already exists.");
+                                }
+                            }
+                            catch(IOException e)
+                            {
+                                System.out.println(e);
+                            }
+
+                            //*********************** Write the File ******************************************************************************
+                            try {
+                                FileWriter CustomerList_File = new FileWriter("Customers Details.txt");
+                                for (int i = 0; i <Customers_List.size(); i++) {
+                                    String line=Customers_List.get(i).toString()+"\n";
+                                    CustomerList_File.write(line);
+                                }
+                                CustomerList_File.close();
                                 System.out.println("Successfully wrote to the file.");
                             } catch (IOException e) {
                                 System.out.println("An error occurred.");

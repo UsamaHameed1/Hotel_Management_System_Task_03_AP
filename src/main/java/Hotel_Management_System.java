@@ -38,7 +38,7 @@ public class Hotel_Management_System {
             } while (loginStatus);
         }
         catch (Hotel_Exception E) {
-            System.out.println("Exception is Thrown By the Hotal Management System");
+            System.out.println("Exception is Thrown By the Hotel Management System");
             System.out.println(E);
         }catch (Exception E) {
             System.out.println("Exception is Thrown By the Main");

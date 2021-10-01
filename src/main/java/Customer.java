@@ -22,6 +22,8 @@ public class Customer {
         this.checkInDate = checkInDate;
         this.checkOutDate = checkOutDate;
         this.servicesUsed=new Vector<>();
+
+
         ++totalCustomerCount;
     }
     public Customer()
@@ -103,5 +105,20 @@ public class Customer {
         System.out.println("Customer Total Bill (Avaliable After Checkout): "+this.customerTotalBill);
         System.out.println("\nCustomer ID : "+this.custoemrID);
 
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "custoemrID=" + custoemrID +
+                ", Name='" + Name + '\'' +
+                ", CNIC='" + CNIC + '\'' +
+                ", phoneNo='" + phoneNo + '\'' +
+                ", roomOccupiedByCustomer=" + roomOccupiedByCustomer +
+                ", checkInDate='" + checkInDate + '\'' +
+                ", checkOutDate='" + checkOutDate + '\'' +
+                ", servicesUsed=" + servicesUsed +
+                ", customerTotalBill=" + customerTotalBill +
+                '}';
     }
 }

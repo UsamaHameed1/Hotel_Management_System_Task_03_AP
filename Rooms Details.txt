@@ -1,5 +1,5 @@
-Room{roomNumber=1, keyNumber=1, occupiedStatus=false, reservationStatus=true, reservationDate='08-011-2021'}
-Room{roomNumber=2, keyNumber=2, occupiedStatus=true, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=1, keyNumber=1, occupiedStatus=true, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=2, keyNumber=2, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
 Room{roomNumber=3, keyNumber=3, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
 Room{roomNumber=4, keyNumber=4, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
 Room{roomNumber=5, keyNumber=5, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
@@ -18,3 +18,8 @@ Room{roomNumber=17, keyNumber=17, occupiedStatus=false, reservationStatus=false,
 Room{roomNumber=18, keyNumber=18, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
 Room{roomNumber=19, keyNumber=19, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
 Room{roomNumber=20, keyNumber=20, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=21, keyNumber=21, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=22, keyNumber=22, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=23, keyNumber=23, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=24, keyNumber=24, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
+Room{roomNumber=25, keyNumber=25, occupiedStatus=false, reservationStatus=false, reservationDate='-'}
